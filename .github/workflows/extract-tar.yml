@@ -1,0 +1,34 @@
+name: Extract Tar.gz and Commit
+
+on:
+  push:
+    paths:
+      - '**.tar.gz'
+  workflow_dispatch:
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Find and extract tar.gz files
+        run: |
+          for file in $(find . -name "*.tar.gz" -type f); do
+            echo "Extracting: $file"
+            dirname=$(dirname "$file")
+            tar -xzf "$file" -C "$dirname"
+            echo "Extracted $file to $dirname"
+          done
+      
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Extract tar.gz files" || echo "No changes to commit"
+          git push || echo "No commits to push"
