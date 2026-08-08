@@ -9,8 +9,6 @@ on:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     
     steps:
       - name: Checkout repository
@@ -18,17 +16,29 @@ jobs:
       
       - name: Find and extract tar.gz files
         run: |
+          echo "Searching for tar.gz files..."
           for file in $(find . -name "*.tar.gz" -type f); do
-            echo "Extracting: $file"
+            echo "Found and extracting: $file"
             dirname=$(dirname "$file")
-            tar -xzf "$file" -C "$dirname"
-            echo "Extracted $file to $dirname"
+            tar -xzf "$file" -C "$dirname" || echo "Failed to extract $file"
+            echo "✅ Extracted $file to $dirname"
           done
+          echo "Listing extracted files:"
+          find . -type f -newer . | head -20
+      
+      - name: Check for changes
+        run: |
+          git status
       
       - name: Commit extracted files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Extract tar.gz files" || echo "No changes to commit"
-          git push || echo "No commits to push"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Extract tar.gz files"
+            git push
+            echo "✅ Committed and pushed extracted files"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
