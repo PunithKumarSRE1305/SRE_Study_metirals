@@ -1,0 +1,29 @@
+# Local notes and private scores
+.private/
+*.local.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Lab scratch (keep your write-ups, not junk output)
+**/labs/scratch/
+**/labs/tmp/
+*.log
+
+# Secrets — never commit these
+**/.env
+**/.env.*
+**/credentials*
+**/*secret*
+**/*id_rsa*
+**/*.pem
+**/*.key
