@@ -7,6 +7,8 @@
 | Status | ⚪ 0% — nothing assessed |
 | Start here | [`weeks/week-01/day-01.md`](weeks/week-01/day-01.md) |
 | Week index | [`weeks/README.md`](weeks/README.md) |
+| Free videos / courses | [`weeks/RESOURCES.md`](weeks/RESOURCES.md) |
+| Week 1 visuals | [`weeks/week-01/visuals/README.md`](weeks/week-01/visuals/README.md) |
 
 ## Why this module exists
 

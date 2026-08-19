@@ -25,3 +25,8 @@ Create, move, inspect, and page through files without fear. Survive `vi` enough 
 ## Prerequisite
 
 Week 01 🟢.
+
+## This week also has
+
+- [resources.md](resources.md) — free videos, official courses, OSS labs
+- [visuals/](visuals/README.md) — diagram-first concept pages

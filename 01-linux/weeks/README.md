@@ -17,4 +17,11 @@ Month 1–3 live here. Only Week 01 has full day files. Later weeks are outlines
 | [11](week-11/README.md) | 3 | Networking first principles | ⚪ outline |
 | [12](week-12/README.md) | 3 | IPv4, subnetting, CIDR | ⚪ outline |
 
+Every week folder also has:
+
+- `resources.md` — free YouTube, official courses, OSS labs for **that week's concepts**
+- `visuals/` — diagram-first explainers
+
+Hub: [`RESOURCES.md`](RESOURCES.md)
+
 Start: [`week-01/day-01.md`](week-01/day-01.md)

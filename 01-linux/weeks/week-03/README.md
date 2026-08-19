@@ -21,3 +21,8 @@ Read `-rwxr-x---` without guessing. Predict whether a given process can write a 
 ## PT bridge
 
 The "user" the load generator runs as is not the user the app runs as. Permission bugs look like 500s under load if only the worker threads hit the write path.
+
+## This week also has
+
+- [resources.md](resources.md) — free videos, official courses, OSS labs
+- [visuals/](visuals/README.md) — diagram-first concept pages

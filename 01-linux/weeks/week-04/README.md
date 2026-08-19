@@ -21,3 +21,8 @@ Explain what a process is. Read `ps` and `top` columns. Send SIGTERM before SIGK
 ## PT bridge
 
 The pid eating CPU during your stress test is the first process you will learn to love. `top` is the un-pretty cousin of the APM CPU graph.
+
+## This week also has
+
+- [resources.md](resources.md) — free videos, official courses, OSS labs
+- [visuals/](visuals/README.md) — diagram-first concept pages

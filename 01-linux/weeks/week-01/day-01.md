@@ -112,6 +112,12 @@ You can change shells. You cannot skip the kernel.
 
 ---
 
+## Visual first (optional 10 min, taken from theory if needed)
+
+Open [`visuals/02-kernel-vs-user-space.md`](visuals/02-kernel-vs-user-space.md) and narrate the picture out loud. Then [`visuals/01-what-is-linux.md`](visuals/01-what-is-linux.md).
+
+Free video cap today: 20 minutes from [`resources.md`](resources.md). Terminal open. Pause often.
+
 ## Concept docs (20 min)
 
 Read for understanding, not highlighting:

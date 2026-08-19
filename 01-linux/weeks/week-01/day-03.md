@@ -39,6 +39,10 @@ cd -            previous directory
 
 If you only remember one danger: **scripts that assume cwd will betray you.** Always prefer absolute paths in cron and systemd.
 
+## Visual first
+
+[`visuals/05-paths.md`](visuals/05-paths.md) then [`visuals/06-pwd-ls-cd.md`](visuals/06-pwd-ls-cd.md)
+
 ## Docs (read `cd` fully)
 
 1. [`../../commands/pwd.md`](../../commands/pwd.md)

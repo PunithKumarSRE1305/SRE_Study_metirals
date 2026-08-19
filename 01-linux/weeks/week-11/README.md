@@ -22,3 +22,8 @@ Time box: 10–12 hours. No 8-hour Saturday.
 ## Completion
 
 🟢 only after the week's assessment (practical + troubleshooting PASS).
+
+## This week also has
+
+- [resources.md](resources.md) — free videos, official courses, OSS labs
+- [visuals/](visuals/README.md) — diagram-first concept pages

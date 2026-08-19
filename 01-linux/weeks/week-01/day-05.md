@@ -58,6 +58,10 @@ Mixing them is how appliances become un-debugable.
 
 If your soak test writes 2 GB of application logs per hour, you are capacity-planning **the log mount**, not "CPU." SREs who grew up in performance testing often miss this because the APM graph still looks fine until the write() fails.
 
+## Visual first
+
+[`visuals/07-inodes-and-mounts.md`](visuals/07-inodes-and-mounts.md)
+
 ## Hands-on
 
 ```bash

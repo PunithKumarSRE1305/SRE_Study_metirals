@@ -63,6 +63,10 @@ That is the kernel answering a question, dressed as a file. This pattern — **e
 
 Your monitoring agent that reports disk % is usually watching a *mount*, not "the computer." A 100% `/var` and a healthy `/` can coexist. Load tests that write logs can fill `/var` and then look like "the app died" — it did, because it could not write.
 
+## Visual first
+
+[`visuals/04-filesystem-hierarchy.md`](visuals/04-filesystem-hierarchy.md)
+
 ## Docs
 
 - [`../../filesystem/filesystem-hierarchy.md`](../../filesystem/filesystem-hierarchy.md)

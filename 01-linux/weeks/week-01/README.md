@@ -40,6 +40,13 @@ You will **not** "learn Linux" this week. You will stop being lost.
 | `ls` | [`../../commands/ls.md`](../../commands/ls.md) |
 | `cd` | [`../../commands/cd.md`](../../commands/cd.md) |
 
+## Visuals and resources (this week)
+
+- Diagram-first pages: [`visuals/README.md`](visuals/README.md)
+- Free videos / courses / labs: [`resources.md`](resources.md)
+
+Look at the picture **before** the 25-section doc if the wall of text is too much. Still do the lab.
+
 ## Environment
 
 You need a real Linux userland:
