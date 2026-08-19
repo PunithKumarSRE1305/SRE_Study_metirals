@@ -9,15 +9,15 @@ Understanding % and Practical % stay 0 until scored.
 
 | Concept | Path-ish | Planned | Status | Understanding | Practical | Assessment | Attempts |
 | ------- | -------- | ------- | ------ | ------------: | --------: | ---------- | -------: |
-| What Linux is | `01-linux/fundamentals/what-is-linux` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Kernel vs user space | `01-linux/fundamentals/kernel-vs-user-space` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Shell vs terminal vs console | `01-linux/fundamentals/shell-vs-terminal` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Why SRE lives on Linux | `01-linux/fundamentals/why-sre-needs-linux` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Filesystem Hierarchy Standard | `01-linux/filesystem/filesystem-hierarchy` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Absolute and relative paths | `01-linux/filesystem/paths` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| pwd — print working directory | `01-linux/commands/pwd` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| ls — list directory contents | `01-linux/commands/ls` | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| cd — change directory | `01-linux/commands/cd` | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| What Linux is | [what-is-linux.md](../01-linux/fundamentals/what-is-linux.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| Kernel vs user space | [kernel-vs-user-space.md](../01-linux/fundamentals/kernel-vs-user-space.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| Shell vs terminal vs console | [shell-vs-terminal.md](../01-linux/fundamentals/shell-vs-terminal.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| Why SRE lives on Linux | [why-sre-needs-linux.md](../01-linux/fundamentals/why-sre-needs-linux.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| Filesystem Hierarchy Standard | [filesystem-hierarchy.md](../01-linux/filesystem/filesystem-hierarchy.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| Absolute and relative paths | [paths.md](../01-linux/filesystem/paths.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| pwd — print working directory | [pwd.md](../01-linux/commands/pwd.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| ls — list directory contents | [ls.md](../01-linux/commands/ls.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
+| cd — change directory | [cd.md](../01-linux/commands/cd.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
 | Creating and removing files/dirs | `01-linux/filesystem/files-and-directories` | W02 | ⚪ | 0% | 0% | Not started | 0 |
 | cat, less, head, tail | `01-linux/commands/viewing-text` | W02 | ⚪ | 0% | 0% | Not started | 0 |
 | find, globs, locate idea | `01-linux/commands/find-and-glob` | W02 | ⚪ | 0% | 0% | Not started | 0 |

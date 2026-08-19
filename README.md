@@ -218,6 +218,7 @@ Full plan: [`roadmap/31-month-roadmap.md`](roadmap/31-month-roadmap.md)
 ```text
 .
 ├── README.md                          ← you are here (daily dashboard)
+├── start-here/                        ← 5-step first night
 ├── 00-orientation/                    ← read once, reread when lost
 ├── roadmap/                           ← 31-month plan, phases, weeks
 ├── progress/                          ← the only source of truth for %
@@ -231,6 +232,7 @@ Full plan: [`roadmap/31-month-roadmap.md`](roadmap/31-month-roadmap.md)
 
 | Open this | When |
 | --------- | ---- |
+| [start-here/README.md](start-here/README.md) | First night, if you do not want to browse | |
 | [00-orientation/how-to-use-this-repository.md](00-orientation/how-to-use-this-repository.md) | First day, and any day you feel lost |
 | [00-orientation/performance-testing-to-sre-bridge.md](00-orientation/performance-testing-to-sre-bridge.md) | Whenever a concept should connect to JMeter / PT |
 | [progress/CURRENT.md](progress/CURRENT.md) | Every session, before studying |

@@ -5,7 +5,8 @@
 | Phase | 1 Foundation |
 | Months | 1–3 (then revisited forever) |
 | Status | ⚪ 0% — nothing assessed |
-| Start here | `weeks/week-01/day-01.md` |
+| Start here | [`weeks/week-01/day-01.md`](weeks/week-01/day-01.md) |
+| Week index | [`weeks/README.md`](weeks/README.md) |
 
 ## Why this module exists
 

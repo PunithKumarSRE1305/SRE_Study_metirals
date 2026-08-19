@@ -2,8 +2,8 @@
 
 Pipelines as product.
 
-Concept documents in this folder follow [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md) (adjust `../` if nested differently).
+Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
 
-Status of each concept: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md).
+Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
 
-Documents appear when the week that needs them is reached, except Week 1 Linux which is fully written so you can start immediately.
+Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
