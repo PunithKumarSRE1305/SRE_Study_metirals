@@ -232,7 +232,7 @@ Full plan: [`roadmap/31-month-roadmap.md`](roadmap/31-month-roadmap.md)
 
 | Open this | When |
 | --------- | ---- |
-| [start-here/README.md](start-here/README.md) | First night, if you do not want to browse | |
+| [start-here/README.md](start-here/README.md) | First night, if you do not want to browse |
 | [00-orientation/how-to-use-this-repository.md](00-orientation/how-to-use-this-repository.md) | First day, and any day you feel lost |
 | [00-orientation/performance-testing-to-sre-bridge.md](00-orientation/performance-testing-to-sre-bridge.md) | Whenever a concept should connect to JMeter / PT |
 | [progress/CURRENT.md](progress/CURRENT.md) | Every session, before studying |
