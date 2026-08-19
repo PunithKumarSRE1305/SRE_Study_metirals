@@ -1,13 +1,10 @@
 # Commands — deep docs, not cheat-sheets
 
-Each file follows the 25-section template. If you want a flag list, you will get a failure scenario instead.
-
-| Doc | Day | Status |
-| --- | --- | ------ |
-| [pwd.md](pwd.md) | W01 D3 | written · ⚪ |
-| [ls.md](ls.md) | W01 D3 | written · ⚪ |
-| [cd.md](cd.md) | W01 D3 | written · ⚪ |
-
-Week 02+ will add `cat`/`less`/`head`/`tail`, `cp`/`mv`/`rm`, `chmod`, `ps`, `top`, `ss`, `journalctl`, …
-
-These roll into **weekly** exams unless the mentor splits a deep one (permissions, `ps`) into its own paper.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [pwd](pwd.md) | W01 | [visual](../weeks/week-01/visuals/06-pwd-ls-cd.md) |
+| [ls](ls.md) | W01 | same |
+| [cd](cd.md) | W01 | same |
+| [cat / less / head / tail](viewing-text.md) | W02 | [visual](../visuals/viewing-text.md) |
+| [find and globs](find-and-glob.md) | W02 | [visual](../visuals/find-and-glob.md) |
+| [editors](editors.md) | W02 | [visual](../visuals/editors.md) |

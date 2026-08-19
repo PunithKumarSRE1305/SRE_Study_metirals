@@ -3,7 +3,7 @@
 A row becomes 🟢 only after its assessment (or the weekly exam that includes it) is passed.
 Understanding % and Practical % stay 0 until scored.
 
-**Required concepts listed:** 178. **Completed:** 0.
+**Required concepts listed:** 179. **Completed:** 0.
 
 ## 01-linux
 
@@ -18,31 +18,32 @@ Understanding % and Practical % stay 0 until scored.
 | pwd — print working directory | [pwd.md](../01-linux/commands/pwd.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
 | ls — list directory contents | [ls.md](../01-linux/commands/ls.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
 | cd — change directory | [cd.md](../01-linux/commands/cd.md) | W01 | ⚪ | 0% | 0% | Not started | 0 |
-| Creating and removing files/dirs | `01-linux/filesystem/files-and-directories` | W02 | ⚪ | 0% | 0% | Not started | 0 |
-| cat, less, head, tail | `01-linux/commands/viewing-text` | W02 | ⚪ | 0% | 0% | Not started | 0 |
-| find, globs, locate idea | `01-linux/commands/find-and-glob` | W02 | ⚪ | 0% | 0% | Not started | 0 |
-| nano/vi enough to survive | `01-linux/commands/editors` | W02 | ⚪ | 0% | 0% | Not started | 0 |
-| Users, groups, /etc/passwd | `01-linux/users-permissions/users-and-groups` | W03 | ⚪ | 0% | 0% | Not started | 0 |
-| Permission bits, chmod, octal | `01-linux/users-permissions/permissions` | W03 | ⚪ | 0% | 0% | Not started | 0 |
-| chown, chgrp, sticky/setgid idea | `01-linux/users-permissions/ownership` | W03 | ⚪ | 0% | 0% | Not started | 0 |
-| sudo vs root login | `01-linux/users-permissions/sudo-intro` | W03 | ⚪ | 0% | 0% | Not started | 0 |
-| What a process is | `01-linux/processes/what-is-a-process` | W04 | ⚪ | 0% | 0% | Not started | 0 |
-| ps, top, interpreting columns | `01-linux/processes/ps-and-top` | W04 | ⚪ | 0% | 0% | Not started | 0 |
-| Signals, kill, SIGTERM vs SIGKILL | `01-linux/processes/signals` | W04 | ⚪ | 0% | 0% | Not started | 0 |
-| Load average (honest) | `01-linux/cpu/load-average` | W05 | ⚪ | 0% | 0% | Not started | 0 |
-| CPU, run queue, steal, iowait | `01-linux/cpu/cpu-saturation` | W05 | ⚪ | 0% | 0% | Not started | 0 |
-| RSS, cache, OOM, reclaim | `01-linux/memory/memory` | W05 | ⚪ | 0% | 0% | Not started | 0 |
-| /proc as an API | `01-linux/processes/proc-filesystem` | W05 | ⚪ | 0% | 0% | Not started | 0 |
-| Disk full vs inode full | `01-linux/disk/disk-and-inodes` | W06 | ⚪ | 0% | 0% | Not started | 0 |
-| I/O wait, iostat idea | `01-linux/io/io` | W06 | ⚪ | 0% | 0% | Not started | 0 |
-| Mounts, fstab idea | `01-linux/filesystem/mounts` | W06 | ⚪ | 0% | 0% | Not started | 0 |
-| Units, enable, restart, dependencies | `01-linux/systemd/systemd` | W07 | ⚪ | 0% | 0% | Not started | 0 |
-| journalctl, /var/log | `01-linux/logs/journals-and-logs` | W07 | ⚪ | 0% | 0% | Not started | 0 |
-| cron vs systemd timers | `01-linux/systemd/cron-and-timers` | W07 | ⚪ | 0% | 0% | Not started | 0 |
-| Keys, agent, tunnels, hardening intro | `01-linux/ssh/ssh` | W08 | ⚪ | 0% | 0% | Not started | 0 |
-| Observe → hypothesize → test | `01-linux/troubleshooting/linux-troubleshooting-method` | W09 | ⚪ | 0% | 0% | Not started | 0 |
-| strace as a last-mile tool | `01-linux/troubleshooting/strace-intro` | W09 | ⚪ | 0% | 0% | Not started | 0 |
-| Quoting, pipes, exit codes | `01-linux/bash/bash-essentials` | W10 | ⚪ | 0% | 0% | Not started | 0 |
+| Creating and removing files/dirs | [files-and-directories.md](../01-linux/filesystem/files-and-directories.md) | W02 | ⚪ | 0% | 0% | Not started | 0 |
+| cat, less, head, tail | [viewing-text.md](../01-linux/commands/viewing-text.md) | W02 | ⚪ | 0% | 0% | Not started | 0 |
+| find, globs, locate idea | [find-and-glob.md](../01-linux/commands/find-and-glob.md) | W02 | ⚪ | 0% | 0% | Not started | 0 |
+| nano/vi enough to survive | [editors.md](../01-linux/commands/editors.md) | W02 | ⚪ | 0% | 0% | Not started | 0 |
+| Users, groups, /etc/passwd | [users-and-groups.md](../01-linux/users-permissions/users-and-groups.md) | W03 | ⚪ | 0% | 0% | Not started | 0 |
+| Permission bits, chmod, octal | [permissions.md](../01-linux/users-permissions/permissions.md) | W03 | ⚪ | 0% | 0% | Not started | 0 |
+| chown, chgrp, sticky/setgid idea | [ownership.md](../01-linux/users-permissions/ownership.md) | W03 | ⚪ | 0% | 0% | Not started | 0 |
+| sudo vs root login | [sudo-intro.md](../01-linux/users-permissions/sudo-intro.md) | W03 | ⚪ | 0% | 0% | Not started | 0 |
+| What a process is | [what-is-a-process.md](../01-linux/processes/what-is-a-process.md) | W04 | ⚪ | 0% | 0% | Not started | 0 |
+| ps, top, interpreting columns | [ps-and-top.md](../01-linux/processes/ps-and-top.md) | W04 | ⚪ | 0% | 0% | Not started | 0 |
+| Signals, kill, SIGTERM vs SIGKILL | [signals.md](../01-linux/processes/signals.md) | W04 | ⚪ | 0% | 0% | Not started | 0 |
+| Load average (honest) | [load-average.md](../01-linux/cpu/load-average.md) | W05 | ⚪ | 0% | 0% | Not started | 0 |
+| CPU, run queue, steal, iowait | [cpu-saturation.md](../01-linux/cpu/cpu-saturation.md) | W05 | ⚪ | 0% | 0% | Not started | 0 |
+| RSS, cache, OOM, reclaim | [memory.md](../01-linux/memory/memory.md) | W05 | ⚪ | 0% | 0% | Not started | 0 |
+| /proc as an API | [proc-filesystem.md](../01-linux/processes/proc-filesystem.md) | W05 | ⚪ | 0% | 0% | Not started | 0 |
+| Disk full vs inode full | [disk-and-inodes.md](../01-linux/disk/disk-and-inodes.md) | W06 | ⚪ | 0% | 0% | Not started | 0 |
+| I/O wait, iostat idea | [io.md](../01-linux/io/io.md) | W06 | ⚪ | 0% | 0% | Not started | 0 |
+| Mounts, fstab idea | [mounts.md](../01-linux/filesystem/mounts.md) | W06 | ⚪ | 0% | 0% | Not started | 0 |
+| Units, enable, restart, dependencies | [systemd.md](../01-linux/systemd/systemd.md) | W07 | ⚪ | 0% | 0% | Not started | 0 |
+| journalctl, /var/log | [journals-and-logs.md](../01-linux/logs/journals-and-logs.md) | W07 | ⚪ | 0% | 0% | Not started | 0 |
+| cron vs systemd timers | [cron-and-timers.md](../01-linux/systemd/cron-and-timers.md) | W07 | ⚪ | 0% | 0% | Not started | 0 |
+| Keys, agent, tunnels, hardening intro | [ssh.md](../01-linux/ssh/ssh.md) | W08 | ⚪ | 0% | 0% | Not started | 0 |
+| Observe → hypothesize → test | [linux-troubleshooting-method.md](../01-linux/troubleshooting/linux-troubleshooting-method.md) | W09 | ⚪ | 0% | 0% | Not started | 0 |
+| strace as a last-mile tool | [strace-intro.md](../01-linux/troubleshooting/strace-intro.md) | W09 | ⚪ | 0% | 0% | Not started | 0 |
+| Quoting, pipes, exit codes | [bash-essentials.md](../01-linux/bash/bash-essentials.md) | W10 | ⚪ | 0% | 0% | Not started | 0 |
+| ip, ss, curl on this host | [ip-ss-curl.md](../01-linux/networking/ip-ss-curl.md) | W07–W11 | ⚪ | 0% | 0% | Not started | 0 |
 
 ## 02-networking
 

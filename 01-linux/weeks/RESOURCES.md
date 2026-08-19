@@ -42,6 +42,8 @@ Do not binge a 6-hour "Linux in one video" on a work night.
 
 There is **no** free exam that makes you an SRE. There are free *courses*. We use those.
 
+**Every Linux concept (not just this week's):** [`../resources/ALL-CONCEPTS.md`](../resources/ALL-CONCEPTS.md) · [`../visuals/README.md`](../visuals/README.md)
+
 ## Per-week files
 
 Each week folder now has:

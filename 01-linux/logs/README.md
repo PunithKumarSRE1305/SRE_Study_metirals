@@ -1,9 +1,5 @@
-# logs
+# Logs
 
-journald and /var/log — evidence.
-
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [journalctl and /var/log](journals-and-logs.md) | W07 | [visual](../visuals/journals-and-logs.md) |

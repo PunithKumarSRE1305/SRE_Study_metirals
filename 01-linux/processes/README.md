@@ -1,9 +1,8 @@
-# processes
+# Processes
 
-What a process is, /proc, signals.
-
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [What a process is](what-is-a-process.md) | W04 | [visual](../weeks/week-04/visuals/processes.md) |
+| [ps and top](ps-and-top.md) | W04 | [visual](../visuals/ps-and-top.md) |
+| [Signals](signals.md) | W04 | [visual](../visuals/signals.md) |
+| [/proc](proc-filesystem.md) | W05 | [visual](../visuals/proc-filesystem.md) |

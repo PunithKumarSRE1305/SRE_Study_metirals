@@ -1,9 +1,7 @@
-# networking
+# Linux networking tools (this host)
 
-ip, ss, from this host's point of view.
+Full packet theory lives in `02-networking/` (Month 3–4). This folder is **what you type on the box**.
 
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [ip, ss, curl](ip-ss-curl.md) | W07–W11 | [visual](../visuals/ip-ss-curl.md) |

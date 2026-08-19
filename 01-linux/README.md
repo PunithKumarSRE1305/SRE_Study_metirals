@@ -8,6 +8,8 @@
 | Start here | [`weeks/week-01/day-01.md`](weeks/week-01/day-01.md) |
 | Week index | [`weeks/README.md`](weeks/README.md) |
 | Free videos / courses | [`weeks/RESOURCES.md`](weeks/RESOURCES.md) |
+| **All Linux visuals** | [`visuals/README.md`](visuals/README.md) |
+| **All Linux resources** | [`resources/ALL-CONCEPTS.md`](resources/ALL-CONCEPTS.md) |
 | Week 1 visuals | [`weeks/week-01/visuals/README.md`](weeks/week-01/visuals/README.md) |
 
 ## Why this module exists

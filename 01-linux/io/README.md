@@ -1,9 +1,5 @@
-# io
+# I/O
 
-The wait you already saw in soak tests.
-
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [I/O wait](io.md) | W06 | [visual](../visuals/io.md) |

@@ -1,9 +1,8 @@
-# users-permissions
+# Users and permissions
 
-Identity on a box; the original IAM.
-
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [Users and groups](users-and-groups.md) | W03 | [visual](../visuals/users-and-groups.md) |
+| [Permissions / chmod](permissions.md) | W03 | [visual](../weeks/week-03/visuals/permissions.md) |
+| [Ownership / sticky / setgid](ownership.md) | W03 | [visual](../visuals/ownership.md) |
+| [sudo](sudo-intro.md) | W03 | [visual](../visuals/sudo-intro.md) |

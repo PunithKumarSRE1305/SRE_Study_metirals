@@ -1,9 +1,5 @@
-# disk
+# Disk
 
-Capacity, inodes, filesystems.
-
-Concept documents follow the 25-section template in [`../../system/templates/concept-document.md`](../../system/templates/concept-document.md).
-
-Status: [`../../progress/concept-tracker.md`](../../progress/concept-tracker.md). A row is 🟢 only after assessment.
-
-Deep docs are written when this week's lesson opens. Week 1 Linux is already written.
+| Doc | Week | Visual |
+| --- | ---- | ------ |
+| [Disk full vs inode full](disk-and-inodes.md) | W06 | [visual](../visuals/disk-and-inodes.md) |
